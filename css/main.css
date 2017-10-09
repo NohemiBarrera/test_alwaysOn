@@ -2,7 +2,14 @@
 	color: white;
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
+body{
+	background-image: url(../assets/img/propuesta_Mesa.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+	
 .btn-flat, .btn{
 	font-size: 12px;
 	text-align: justify;
@@ -18,7 +25,30 @@
 .submit:hover{
 	background-color: #3359b1;
 }
+#loginFb{
+	background-color: #3b5998;
+	color: white;
+}
 img{
 	width: 150px;
 	height: 150px;
+	display: block;
+	margin: auto;
+}
+a{
+	width: 100%;
+}
+p{
+	color: #9e9e9e;
+}
+.browser-default, option{
+	background-color: transparent;
+	border: 1px solid #9e9e9e;
+	color: #9e9e9e;
+}
+@media (max-width: 360px){
+	img{
+		display: block;
+		margin: auto;
+	}
 }
