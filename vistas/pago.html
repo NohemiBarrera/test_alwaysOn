@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col l4 offset-l4 s12 m12">
+				<div class="row">
+					<div class="col s8 m8 offset-m2">
+						<i class="material-icons">lock_outline</i>
+						<p>Donativo seguro</p>
+						<img src="../assets/img/propuesta-12.png">
+						<br>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s12 m12">
+						<label>CAUSA</label>
+					  	<select class="browser-default">
+						    <option value="" disabled selected>Descubrir nuevos planetas</option>
+						    <option value="1">Mejorar los trajes de astronautas</option>
+						    <option value="2">Investigar los agujeros de gusano</option>
+						    <option value="3">Construir mejores satélites</option>
+						</select>
+					</div>
+				</div>
+				<div class="row">
+					<p>Tipo de pago:</p>
+					<br>
+					<div class="col s4 m4">
+						<a class="waves-effect waves-teal btn-flat">Tarjeta</a>
+					</div>
+					<div class="col s4 m4"><a class="waves-effect waves-teal btn-flat">OXXO</a></div>
+				</div>
+				<div class="row">
+					<div class="col s12 m12">
+						<label for="numTarjeta">NÚMERO DE TARJETA</label>
+						<input type="text" class="validate" maxlength="16">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col l12 s12 m12">
+						<label for="numTarjeta">NOMBRE TARJETAHABIENTE</label>
+						<input type="text" class="validate" maxlength="20">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s4 m4">
+						<label>VENCIMIENTO (mes)</label>
+					  	<select class="browser-default">
+						    <option value="" disabled selected>01-Ene</option>
+						    <option value="">02-Feb</option>
+						    <option value="">03-Mar</option>
+						    <option value="">04-Abr</option>
+						    <option value="">05-May</option>
+						    <option value="">06-Jun</option>
+						    <option value="">07-Jul</option>
+						    <option value="">08-Ago</option>
+						    <option value="">09-Sep</option>
+						    <option value="">10-Oct</option>
+						    <option value="">11-Nov</option>
+						    <option value="">12-Dic</option>
+						</select>
+					</div>
+					<div class="col s4 m4">
+						<label>VENCIMIENTO (año)</label>
+					  	<select class="browser-default">
+						    <option value="" disabled selected>2018</option>
+						    <option value="">2019</option>
+						    <option value="">2020</option>
+						    <option value="">2021</option>
+						    <option value="">2022</option>
+						    <option value="">2023</option>
+						    <option value="">2024</option>
+						    <option value="">2025</option>
+						</select>
+					</div>
+					<div class="col s4 m4">
+						<label>CVV</label>
+						<input type="text" class="validate" maxlength="3">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s12 m12">
+						<p>¿Requiere comprobante fiscal?</p>
+						<div class="switch">
+						    <label>
+						      No
+						      <input type="checkbox">
+						      <span class="lever"></span>
+						      Sí
+						    </label>
+						</div>
+						<p>(Una vez aprobado tu pago se te solicitarán tus datos fiscales)</p>
+						<br>
+						<p>
+							<input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
+	      					<label for="filled-in-box">Acepto términos y condiciones</label>
+	      				</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s12 m12">
+						<label for="number">Teléfono</label>
+						<input type="tel" class="validate">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s4 m4">
+						<button class="waves-effect waves-teal btn-flat" type="submit" name="action"><a href="../index.html" class="enlaceBlanco">Regresar</button>
+					</div>
+					<div class="col s4 m4 offset-m4">
+						<button class="waves-effect waves-teal btn-flat submit" type="submit" name="action"><a href="conocermas.html" class="enlaceBlanco">Continuar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="../js/materialize.min.js"></script>
+</body>
+</html>
